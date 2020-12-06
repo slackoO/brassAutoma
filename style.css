@@ -1,3 +1,21 @@
-.card {
-    background-color: aqua;
+.btn-primary {
+    background-color: rgb(218, 177, 74) !important;
+    border-width: 0 !important
 }
+
+.btn-primary:hover {
+    background-color: #969593 !important;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+body {
+    background-image: url("img/brass.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
