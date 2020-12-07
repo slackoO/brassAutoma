@@ -3,35 +3,25 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css"><link>
         <title>Brass Automa</title>
     </head>
     <body>
-        <div class="container-fluid mt-5">
-            <div class="row justify-content-center">
-                <div class="col-sm-4 mb-4">
-                    <div class="card-deck">
-                        <div class="card bg-transparent border-0">
-                            <img class="card-img-top" src="" id="cardFront">
-                            <button type="button" class="mt-2 btn btn-lg btn-block btn-primary" id="railEraButton" style="display: none;">Start Rail Era</button>
-                        </div>
-                        <div class="card bg-transparent border-0">
-                            <img class="card-img-top firstCard" src="img/fronts/FRONT_R0.png" id="cardBack">
-                            <button type="button" class="mt-2 btn btn-lg btn-block btn-primary" id="drawButton">Start</button>
-                        </div>
+        <div class="container">
+            <div class="card">
+                <div class="cards">
+                    <div class="gameCard">
+                        <img class="img" src="" id="cardFront">
+                    </div>
+                    <div class="gameCard">
+                        <img class="img" src="img/fronts/FRONT_R0.png" id="cardBack">
                     </div>
                 </div>
-            </div>
-        </div>         
-
-
+                <div class="buttons">
+                    <button type="button" class="button" id="railEraButton" style="display: none;">Start Rail Era</button>
+                    <button type="button" class="button" id="drawButton">Start</button>
+                </div>
+                </div>
         <script src="app.js" charset="utf-8"></script>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
-    </body>
+         </body>
 </html>

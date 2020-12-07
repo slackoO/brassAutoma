@@ -31,7 +31,7 @@ function drawNextCard() {
     }
     else if(!railEraBegun){
         cardBack.src = cardFrontSrcRoot + 0 + imageExtension
-        drawBtn.disabled = true
+        drawBtn.style.display = "none"
         railEraBtn.style.display = "block"
         railEraBegun = true
     }
@@ -47,7 +47,7 @@ function startRailEra() {
     bCards = [3, 4, 6, 12]
     cCards = [5, 9, 14, 15, 19, 21]
     initDeck()
-    drawBtn.disabled = false
+    drawBtn.style.display = "block"
     railEraBtn.style.display = "none"
     current = 0
     cardFront.src = ""

@@ -1,24 +1,66 @@
-.btn-primary {
-    background-color: rgb(218, 177, 74) !important;
-    border-width: 0 !important
-}
-
-.btn-primary:hover {
-    background-color: #969593 !important;
-}
-
-.btn:focus {
-    outline: none !important;
-    box-shadow: none !important;
-}
-
-.card-img-top {
-    -webkit-filter: drop-shadow(3px 3px 3px #222);
-    filter: drop-shadow(3px 3px 3px #222);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background: transparent !important;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    display: inline-flex;
+}
+
+.gameCard {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cardFront {
+    padding-right: 1rem;
+}
+
+#cardBack {
+    padding-left: 1rem;
+}
+
+.gameCard img {
+    width: 23rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.buttons button {
+    outline: 0;
+    padding: 0.5rem 2rem;
+    background-color: #969593;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.buttons button:hover {
+    background-color:  rgb(218, 177, 74);;
+}
+
+.buttons button:active {
+    position: relative;
+    top: 1;
 }
 
 html { 
@@ -28,4 +70,3 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
-
