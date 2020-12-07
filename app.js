@@ -51,6 +51,7 @@ function startRailEra() {
     railEraBtn.style.display = "none"
     current = 0
     cardFront.src = ""
+    cardBack.src = cardBackSrcRoot + finalDeck[current++] + imageExtension
 }
 
 function drawCard(deckToDrawFrom) {
