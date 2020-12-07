@@ -12,6 +12,11 @@
     box-shadow: none !important;
 }
 
+.card-img-top {
+    -webkit-filter: drop-shadow(3px 3px 3px #222);
+    filter: drop-shadow(3px 3px 3px #222);
+}
+
 body {
     background: transparent !important;
 }
@@ -22,5 +27,5 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
 
